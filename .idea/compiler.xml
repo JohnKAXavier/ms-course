@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hr-payroll" />
+        <module name="hr-api-gateway" />
+        <module name="hr-config-server" />
+        <module name="hr-eureka-server" />
+        <module name="hr-worker" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hr-api-gateway" target="1.5" />
+      <module name="hr-config-server" target="1.5" />
+      <module name="hr-eureka-server" target="1.5" />
+      <module name="hr-payroll" target="1.5" />
+      <module name="hr-worker" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
